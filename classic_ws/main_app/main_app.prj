@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="main_app" location="E:/HDLProjects/axi_stream_array_sum_microblaze/classic_ws/main_app" platform="E:/HDLProjects/axi_stream_array_sum_microblaze/classic_ws/hw_def_design_wrapper/export/hw_def_design_wrapper/hw_def_design_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="main_app_system" sysConfig="hw_def_design_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="aa5ddb4486c5e70fa84ae32dba401bfb">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.134328847">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.960733962" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

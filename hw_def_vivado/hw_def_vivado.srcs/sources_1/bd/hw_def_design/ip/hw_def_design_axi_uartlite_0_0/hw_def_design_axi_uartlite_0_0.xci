@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "hw_def_design_axi_uartlite_0_0",
-    "cell_name": "axi_uartlite_0",
+    "cell_name": "usb_uart",
     "component_reference": "xilinx.com:ip:axi_uartlite:2.0",
     "ip_revision": "33",
     "gen_directory": "../../../../../../hw_def_vivado.gen/sources_1/bd/hw_def_design/ip/hw_def_design_axi_uartlite_0_0",

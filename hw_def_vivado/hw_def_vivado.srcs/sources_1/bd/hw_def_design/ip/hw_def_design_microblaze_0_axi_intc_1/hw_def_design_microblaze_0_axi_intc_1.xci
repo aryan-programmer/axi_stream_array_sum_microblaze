@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "hw_def_design_microblaze_0_axi_intc_1",
-    "cell_name": "microblaze_0_axi_intc",
+    "cell_name": "interrupt_controller",
     "component_reference": "xilinx.com:ip:axi_intc:4.1",
     "ip_revision": "18",
     "gen_directory": "../../../../../../hw_def_vivado.gen/sources_1/bd/hw_def_design/ip/hw_def_design_microblaze_0_axi_intc_1",
