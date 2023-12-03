@@ -1,6 +1,9 @@
 axi_fifo_to_adder:
 - axi_fifo_mm_s
 - None
+axi_uartlite_0:
+- axi_uartlite
+- uartlite
 axis_adder:
 - axi_stream_adder
 - axi_stream_adder

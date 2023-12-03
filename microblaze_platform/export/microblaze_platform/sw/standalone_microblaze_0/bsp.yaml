@@ -1,5 +1,5 @@
 sdt: hw_artifacts\microblaze_0_baremetal.dts
-family: null
+family: artix7
 path: E:\HDLProjects\axi_stream_array_sum_microblaze\microblaze_platform\microblaze_0\standalone_microblaze_0\bsp
 os: standalone
 os_info:
@@ -11,21 +11,21 @@ os_config:
       name: standalone_stdin
       permission: read_write
       type: string
-      value: None;
-      default: None;
+      value: axi_uartlite_0
+      default: axi_uartlite_0
       options:
       - None
-      - ''
+      - axi_uartlite_0
       description: stdin peripheral
     standalone_stdout:
       name: standalone_stdout
       permission: read_write
       type: string
-      value: None;
-      default: None;
+      value: axi_uartlite_0
+      default: axi_uartlite_0
       options:
       - None
-      - ''
+      - axi_uartlite_0
       description: stdout peripheral
 toolchain_file: microblaze_toolchain.cmake
 specs_file: Xilinx.spec
@@ -79,6 +79,10 @@ lib_folder: lib
 libsrc_folder: libsrc
 drv_info:
   axi_fifo_to_adder: None
+  axi_uartlite_0:
+    driver: uartlite
+    ip_name: axi_uartlite
+    path: C:\Xilinx\Vitis\2023.2\data\embeddedsw\XilinxProcessorIPLib\drivers\uartlite_v3_9
   axis_adder:
     driver: axi_stream_adder
     ip_name: axi_stream_adder

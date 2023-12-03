@@ -1,0 +1,18 @@
+{
+  "name": "main_app",
+  "type": "HOST",
+  "platform": "E:\\HDLProjects\\axi_stream_array_sum_microblaze\\microblaze_platform\\export\\microblaze_platform\\microblaze_platform.xpfm",
+  "domain": "standalone_microblaze_0",
+  "cpuInstance": "microblaze_0",
+  "cpuType": "microblaze",
+  "os": "standalone",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "standalone_microblaze_0",
+  "applicationFlow": "EMBEDDED",
+  "previousBuildStatusMap": {
+    "hw": "SUCCESS"
+  }
+}

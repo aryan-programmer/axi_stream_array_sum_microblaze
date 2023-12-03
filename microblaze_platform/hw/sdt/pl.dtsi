@@ -213,6 +213,26 @@
 			xlnx,rx-cascade-height = <0>;
 			xlnx,name = "axi_fifo_to_adder";
 		};
+		axi_uartlite_0: axi_uartlite@4060000 {
+			compatible = "xlnx,axi-uartlite-2.0" , "xlnx,xps-uartlite-1.00.a";
+			clock-frequency = <100000000>;
+			xlnx,uartlite-board-interface = "usb_uart";
+			xlnx,s-axi-aclk-freq-hz-d = <100>;
+			xlnx,rable = <0>;
+			xlnx,ip-name = "axi_uartlite";
+			reg = <0x04060000 0x10000>;
+			xlnx,baudrate = <9600>;
+			clocks = <&clk_bus_0>;
+			current-speed = <9600>;
+			xlnx,use-parity = <0>;
+			xlnx,edk-iptype = "PERIPHERAL";
+			xlnx,odd-parity = <0>;
+			status = "okay";
+			xlnx,use-board-flow;
+			xlnx,name = "axi_uartlite_0";
+			xlnx,data-bits = <8>;
+			xlnx,parity = "No_Parity";
+		};
 		axis_adder: axi_stream_adder@40000 {
 			compatible = "xlnx,axi-stream-adder-1.0";
 			xlnx,ii = "x";

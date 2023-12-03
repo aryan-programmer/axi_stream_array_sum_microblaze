@@ -12,8 +12,10 @@
 		reg = <0x00000000 0x20000>;
 	};
 	chosen {
+		stdout-path = "serial0:9600n8";
 	};
 	aliases {
+		serial0 = &axi_uartlite_0;
 	};
 	amba_pl: amba_pl {
 		cpus_microblaze_0: cpus_microblaze@0 {
@@ -22,6 +24,7 @@
 			      <0x00030000 &leds_gpio 0x00030000 0x10000>, 
 			      <0x00040000 &axis_adder 0x00040000 0x10000>, 
 			      <0x00050000 &axi_fifo_to_adder 0x00050000 0x1000>, 
+			      <0x04060000 &axi_uartlite_0 0x04060000 0x10000>, 
 			      <0x40000000 &switches_gpio 0x40000000 0x10000>, 
 			      <0x41200000 &microblaze_0_axi_intc 0x41200000 0x10000>;
 			#ranges-address-cells = <0x1>;

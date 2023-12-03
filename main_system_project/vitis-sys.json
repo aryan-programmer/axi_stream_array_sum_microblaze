@@ -1,0 +1,28 @@
+{
+  "modelVersion": "1.0",
+  "projectName": "main_system_project",
+  "platform": "E:\\HDLProjects\\axi_stream_array_sum_microblaze\\microblaze_platform\\export\\microblaze_platform\\microblaze_platform.xpfm",
+  "externalComponentRefs": [
+    "main_app"
+  ],
+  "components": [],
+  "buildConfigurations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "supportedTargets": [
+        "HW_EMU",
+        "HW"
+      ]
+    }
+  ],
+  "activeBuildConfigId": "default",
+  "hostMode": "x86",
+  "previousBuildStatusMap": {
+    "sw_emu": "NEW",
+    "hw_emu": "NEW",
+    "hw": "SUCCESS"
+  },
+  "isDirty": true,
+  "applicationFlow": "EMBEDDED"
+}

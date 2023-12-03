@@ -1,1 +1,1 @@
-set(DRIVER_LIST axi_stream_adder;common;gpio;intc)
+set(DRIVER_LIST axi_stream_adder;common;gpio;intc;uartlite)
