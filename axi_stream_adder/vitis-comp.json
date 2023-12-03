@@ -1,0 +1,12 @@
+{
+  "name": "axi_stream_adder",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "axi_stream_adder"
+  },
+  "previousBuildStatusMap": {}
+}
