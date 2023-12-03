@@ -1,0 +1,18 @@
+axi_fifo_to_adder:
+- axi_fifo_mm_s
+- None
+axis_adder:
+- axi_stream_adder
+- axi_stream_adder
+leds_gpio:
+- axi_gpio
+- gpio
+microblaze_0_axi_intc:
+- axi_intc
+- intc
+seg_14_bit_io:
+- axi_gpio
+- gpio
+switches_gpio:
+- axi_gpio
+- gpio

@@ -1,0 +1,31 @@
+/dts-v1/;
+#include "pl.dtsi"
+/ {
+	board = "basys3";
+	compatible = "xlnx,basys3";
+	device_id = "7a35t";
+	#address-cells = <1>;
+	#size-cells = <1>;
+	microblaze_0_local_memory_dlmb_bram_if_cntlr_memory: memory@0 {
+		compatible = "xlnx,lmb-bram-if-cntlr-4.0";
+		device_type = "memory";
+		reg = <0x00000000 0x20000>;
+	};
+	chosen {
+	};
+	aliases {
+	};
+	amba_pl: amba_pl {
+		cpus_microblaze_0: cpus_microblaze@0 {
+			address-map = <0x00000000 &microblaze_0_local_memory_dlmb_bram_if_cntlr_memory 0x00000000 0x20000>, 
+			      <0x00020000 &seg_14_bit_io 0x00020000 0x10000>, 
+			      <0x00030000 &leds_gpio 0x00030000 0x10000>, 
+			      <0x00040000 &axis_adder 0x00040000 0x10000>, 
+			      <0x00050000 &axi_fifo_to_adder 0x00050000 0x1000>, 
+			      <0x40000000 &switches_gpio 0x40000000 0x10000>, 
+			      <0x41200000 &microblaze_0_axi_intc 0x41200000 0x10000>;
+			#ranges-address-cells = <0x1>;
+			#ranges-size-cells = <0x1>;
+		};
+	};
+};

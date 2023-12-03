@@ -1,0 +1,4 @@
+set(DRIVER_INSTANCES "axi_stream_adder@40000")
+set(DRIVER_PROP_0_LIST "xlnx,axi-stream-adder-1.0;0x40000")
+set(DRIVER_OPTPROP_0_LIST "")
+list(APPEND TOTAL_DRIVER_PROP_LIST DRIVER_PROP_0_LIST)
